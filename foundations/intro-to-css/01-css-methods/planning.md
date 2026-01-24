@@ -11,18 +11,15 @@ This document outlines a planned workflow for this exercise, with carefully-plan
 
 2.  Link style.css in index.html
 
-3.  Add external css for div element
+3.  Add external CSS for div element
     
-    Style the dive with a red background, white text, 32px font size,
+    Style the div with a red background, white text, 32px font size,
     centered text, and bold font weight.
 
-4.  Add internal css for p element
+4.  Add internal CSS for p element
 
     Style the paragraph with a green background, white text, and 18px font size.
 
-5.  Add inline css for button element
+5.  Add inline CSS for button element
 
-    Style the button element with an orange background and 18px font size using inline css.
-
-
-
+    Style the button element with an orange background and 18px font size using inline CSS.
