@@ -1,6 +1,7 @@
 div, button, h1 {
   margin: 12px auto;
   display: block;
+  padding: 12px;
 }
 
 body {
@@ -28,4 +29,5 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 28px;
 }
