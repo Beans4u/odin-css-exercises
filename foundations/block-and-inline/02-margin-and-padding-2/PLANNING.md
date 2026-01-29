@@ -34,3 +34,9 @@ Create PLANNING.md to determine the intended Git commit workflow, following the 
  5. Align text to center of button-container
 
     Align with design specs.
+
+ 6. Set font sizes for title, button, and divs
+
+    Align with design specs.
+
+ 7. Update selector for consistency in style sheet
