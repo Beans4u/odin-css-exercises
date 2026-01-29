@@ -2,6 +2,7 @@ div, button, h1 {
   margin: 12px auto;
   display: block;
   padding: 12px;
+  font-size: 18px;
 }
 
 body {
