@@ -1,4 +1,4 @@
-div, button, h1 {
+div, button, .title {
   margin: 12px auto;
   display: block;
   padding: 12px;
