@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.cta-button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.antagonistic-cta-button {
+    background-color: #ffff56;
+}
+
+.cta-button, .antagonistic-cta-button {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
