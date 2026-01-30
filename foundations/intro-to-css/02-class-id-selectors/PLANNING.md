@@ -17,16 +17,26 @@ Add background colours to elements
 
 Apply background-color rules as specified in the exercise requirements.
 
-**Commit 4:**
-Set font style specified in exercise requirements
+**Commit 4**
+Update atomic commit workflow planning document
+
+Modify plan to accommodate efficient workflow
 
 **Commit 5:**
-Set font colours specified in exercise requirements
+Add class and ID attributes to HTML elements
+
+To support required CSS selectors for this exercise.
 
 **Commit 6:**
-Set font sizes specified in exercise requirements
+Set font style specified in exercise requirements
 
 **Commit 7:**
+Set font colours specified in exercise requirements
+
+**Commit 8:**
+Set font sizes specified in exercise requirements
+
+**Commit 9:**
 Set bold font specified in exercise requirements
 
     
