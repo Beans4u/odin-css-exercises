@@ -1,21 +1,20 @@
 /* Add CSS Styling */
 
-.background-red {
+.odd {
     background-color: rgb(245, 172, 184);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.background-green {
-    background-color: rgb(136, 240, 136);
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.number-two {
+#number-two {
     color: rgb(0, 0, 245);
     font-size: 36px;
 }
 
-.number-three {
+#number-four {
+    background-color: rgb(136, 240, 136);
+    font-weight: bold;
+}
+
+.medium-font-size {
     font-size: 24px;
 }
