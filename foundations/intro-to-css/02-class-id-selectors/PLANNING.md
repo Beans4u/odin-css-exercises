@@ -32,6 +32,14 @@ Update atomic commit workflow planning document
 
 Report final atomic commit workflow that was used.
 
+**Commit 7**
+Refactor class and ID selectors
+
+Refactor class and ID selectors in HTML and style sheet to align with CSS best practices.
+
+**commit 8**
+Update atomic commit workflow planning document
+
     
 # Class and ID Selectors
 >Copied and reworked README to condense text into assignment constraints:
