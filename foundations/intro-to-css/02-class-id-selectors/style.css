@@ -1,1 +1,9 @@
 /* Add CSS Styling */
+
+.background-red {
+    background-color: rgb(245, 172, 184);
+}
+
+.background-green {
+    background-color: rgb(136, 240, 136);
+}
