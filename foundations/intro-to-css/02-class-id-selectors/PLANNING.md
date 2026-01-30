@@ -3,40 +3,40 @@ This document outlines a planned workflow for this exercise, with carefully-plan
 
 ## Commit Message Workflow Plan
 
-**Commit 1:**
+* **Commit 1:**
 Add atomic commit workflow planning document
 
 Create PLANNING.md to plan atomic commits and message format before starting work on this exercise.
 
-**Commit 2:**
+* **Commit 2:**
 Add class and ID attributes to HTML elements
 
 To support required CSS selectors for this exercise.
 
-**Commit 3:**
+* **Commit 3:**
 Add background colours to elements
 
 Apply background-color rules as specified in the exercise requirements.
 
-**Commit 4**
+* **Commit 4**
 Update atomic commit workflow planning document
 
 Modify plan to accommodate a better-structured workflow
 
-**Commit 5:**
+* **Commit 5:**
 Set font styles specified in exercise requirements
 
-**commit 6**
+* **commit 6**
 Update atomic commit workflow planning document
 
 Report final atomic commit workflow that was used.
 
-**Commit 7**
+* **Commit 7**
 Refactor class and ID selectors
 
 Refactor class and ID selectors in HTML and style sheet to align with CSS best practices.
 
-**commit 8**
+* **commit 8**
 Update atomic commit workflow planning document
 
     
