@@ -2,6 +2,8 @@
 This document outlines a planned workflow for this exercise, with carefully-planned atomic commits to follow Git best practices as directed by The Odin Project: [Commit Messages](https://www.theodinproject.com/lessons/foundations-commit-messages) lesson.
 
 ## Commit Message Workflow Plan
+>I found the use of IDs unnecessary for this exercise, so to comply with CSS best practices, I did not employ them.
+
 **Commit 1:**
 Add atomic commit workflow planning document
 
@@ -20,24 +22,15 @@ Apply background-color rules as specified in the exercise requirements.
 **Commit 4**
 Update atomic commit workflow planning document
 
-Modify plan to accommodate efficient workflow
+Modify plan to accommodate a better-structured workflow
 
 **Commit 5:**
-Add class and ID attributes to HTML elements
+Set font styles specified in exercise requirements
 
-To support required CSS selectors for this exercise.
+**commit 6**
+Update atomic commit workflow planning document
 
-**Commit 6:**
-Set font style specified in exercise requirements
-
-**Commit 7:**
-Set font colours specified in exercise requirements
-
-**Commit 8:**
-Set font sizes specified in exercise requirements
-
-**Commit 9:**
-Set bold font specified in exercise requirements
+Report final atomic commit workflow that was used.
 
     
 # Class and ID Selectors
@@ -60,7 +53,7 @@ Use non-keyword value for colours (RGB, HEX, or HSL).
 Add properties to each element:
 * **All odd numbered elements**: 
     - light red/pink background
-    - fonts: `Verdana`, `DejaVu Sans`, `sans-serif`
+    - font: `Verdana`, `DejaVu Sans`, `sans-serif`
    
 * **The second element**: 
     - blue font
