@@ -2,8 +2,20 @@
 
 .background-red {
     background-color: rgb(245, 172, 184);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .background-green {
     background-color: rgb(136, 240, 136);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.number-two {
+    color: rgb(0, 0, 245);
+    font-size: 36px;
+}
+
+.number-three {
+    font-size: 24px;
 }
