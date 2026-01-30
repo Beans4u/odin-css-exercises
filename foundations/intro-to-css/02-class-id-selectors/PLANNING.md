@@ -2,7 +2,6 @@
 This document outlines a planned workflow for this exercise, with carefully-planned atomic commits to follow Git best practices as directed by The Odin Project: [Commit Messages](https://www.theodinproject.com/lessons/foundations-commit-messages) lesson.
 
 ## Commit Message Workflow Plan
->I found the use of IDs unnecessary for this exercise, so to comply with CSS best practices, I did not employ them.
 
 **Commit 1:**
 Add atomic commit workflow planning document
