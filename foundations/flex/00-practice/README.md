@@ -1,0 +1,2 @@
+# Flexbox Practice
+I wanted more practice than just the assignment exercises, so I challenged myself with different exercises (produced by an LLM) to complete using flexbox. This was at times frustrating, but led to some valuable "aha!" moments. I may do this again with new exercises in the future.
