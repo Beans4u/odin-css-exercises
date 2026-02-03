@@ -1,0 +1,240 @@
+/* --- Global Reset & Professional Theming --- */
+* {
+    box-sizing: border-box; /* Crucial: padding won't break your widths */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+    background-color: #eef2f5;
+    color: #334155;
+}
+
+h1 {
+    color: #1e293b;
+    border-bottom: 4px solid #3b82f6;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+}
+
+/* --- The Challenge Block (Container for text + playground) --- */
+.challenge-block {
+    background: white;
+    padding: 24px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.challenge-title {
+    font-weight: 800;
+    color: #2563eb;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.exercise-desc {
+    font-style: italic;
+    color: #64748b;
+    margin-bottom: 20px;
+    border-left: 3px solid #cbd5e1;
+    padding-left: 15px;
+}
+
+/* --- The Playground (Where the magic happens) --- */
+.playground {
+    background-color: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    min-height: 300px;
+    padding: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.playground:hover {
+    border-color: #3b82f6; /* Visual feedback in VS Code */
+}
+
+/* --- Common Flex Items --- */
+.item {
+    background-color: #3b82f6;
+    color: white;
+    padding: 20px;
+    border: 1px solid #2563eb;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 80px;
+}
+
+/* --- Specifics for Phase 3 (Exercise 17-20) --- */
+.header-container, .profile-card, .sidebar, .main-content {
+    border: 2px solid #94a3b8;
+    padding: 10px;
+    background: #fff;
+    color: #1e293b;
+}
+
+/* --- YOUR CHALLENGE CSS STARTS HERE --- */
+
+.ex-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ex-03 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ex-04 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ex-05 {
+    display: flex;
+    align-items: baseline;
+}
+
+.ex-06 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ex-07 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.even-7 {
+    align-self: flex-end;
+}
+
+.ex-08 {
+    display: flex;
+}
+
+.greedy {
+    flex: 1;
+}
+
+.ex-09 {
+    display: flex;
+}
+
+.part-1 {
+    flex: 1;
+}
+
+.part-2 {
+    flex: 2;
+}
+
+.ex-10 {
+    display: flex;
+}
+
+.unbreakable {
+    flex: 1;
+}
+
+.ex-11 {
+    display: flex;
+}
+.ex-11 .item {
+    flex: 1 1 150px;
+}
+
+.ex-12 {
+    display: flex;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.ex-13 {
+    display: flex;
+}
+
+.capped {
+    max-width: 400px;
+}
+
+.ex-14 {
+    display: flex;
+}
+
+.ex-14 .item {
+    flex: 1;
+}
+
+.ex-15 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ex-16 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ex-16 .item {
+    flex: 1 1 calc(30% - 1em);
+}
+
+.ex-17 .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1em;
+}
+
+.ex-18 .profile-card {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+@media (max-width: 1250px) {
+    .ex-19 {flex-direction: column;}
+}
+
+.ex-19 {
+    display: flex;
+    align-items: center;
+
+}
+.ex-20 {
+    display: flex;
+}
+.ex-20 .sidebar {
+    flex: 0 0 200px;
+}
+
+.ex-20 .main-content {
+    flex: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}

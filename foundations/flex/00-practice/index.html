@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox: Practice Until It's Common Sense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 01 - The Centerpiece</span></p>
+        <p class="exercise-desc">Create a parent container (300px x 300px) and perfectly center a single child item both horizontally and vertically.</p>
+    </div>
+    <div class="playground ex-01">
+        <div class="item">Center Me</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 02 - The Navbar</span></p>
+        <p class="exercise-desc">Horizontal row, 4 items. Equal space BETWEEN them, no space at the ends.</p>
+    </div>
+    <div class="playground ex-02">
+        <div class="item">Home</div><div class="item">Shop</div><div class="item">Blog</div><div class="item">Contact</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 03 - The Sidebar</span></p>
+        <p class="exercise-desc">Column direction. Align 3 items to the bottom-right of the container.</p>
+    </div>
+    <div class="playground ex-03">
+        <div class="item">Top</div><div class="item">Middle</div><div class="item">Bottom</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 04 - The Mirror</span></p>
+        <p class="exercise-desc">5 items. Use one flex property to make them appear in reverse order (5 to 1).</p>
+    </div>
+    <div class="playground ex-04">
+        <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 05 - The Baseline</span></p>
+        <p class="exercise-desc">3 items, different font sizes. Align them so their text sits on the same baseline.</p>
+    </div>
+    <div class="playground ex-05">
+        <div class="item" style="font-size: 12px;">Small</div>
+        <div class="item" style="font-size: 48px;">Huge</div>
+        <div class="item" style="font-size: 24px;">Medium</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 06 - The Holy Trinity</span></p>
+        <p class="exercise-desc">Item A at start, B exactly in center, C at the end.</p>
+    </div>
+    <div class="playground ex-06">
+        <div class="item">A</div><div class="item">B</div><div class="item">C</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 07 - The Alternator</span></p>
+        <p class="exercise-desc">Column of 4. Use align-self: even items right, odd items left.</p>
+    </div>
+    <div class="playground ex-07">
+        <div class="item odd-7">1</div>
+        <div class="item even-7">2</div>
+        <div class="item odd-7">3</div>
+        <div class="item even-7">4</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 08 - The Greedy Child</span></p>
+        <p class="exercise-desc">3 items. Middle item grows to take all remaining space.</p>
+    </div>
+    <div class="playground ex-08">
+        <div class="item">Static</div><div class="item greedy">I want it all</div><div class="item">Static</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 09 - The Golden Ratio</span></p>
+        <p class="exercise-desc">Item A takes 1 part space, Item B takes 2 parts space.</p>
+    </div>
+    <div class="playground ex-09">
+        <div class="item part-1">1 Part</div><div class="item part-2">2 Parts</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 10 - The Unbreakable</span></p>
+        <p class="exercise-desc">3 items (basis 200px) in 400px container. Prevent middle item from shrinking.</p>
+    </div>
+    <div class="playground ex-10" style="width: 400px;">
+        <div class="item">Shrink</div><div class="item unbreakable">No Shrink</div><div class="item">Shrink</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 11 - The Specific Basis</span></p>
+        <p class="exercise-desc">Items with no width, but flex-basis sets them to 150px each.</p>
+    </div>
+    <div class="playground ex-11">
+        <div class="item">Item</div><div class="item">Item</div><div class="item">Item</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 12 - Auto-Margin Trick</span></p>
+        <p class="exercise-desc">4 items. Use margin-left: auto on the last item to push it away.</p>
+    </div>
+    <div class="playground ex-12">
+        <div class="item">A</div><div class="item">B</div><div class="item">C</div><div class="item push">D</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 13 - The Minimum Cap</span></p>
+        <p class="exercise-desc">Item grows, but max-width is 400px.</p>
+    </div>
+    <div class="playground ex-13">
+        <div class="item capped">I grow, but I have limits</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 14 - The Equalizer</span></p>
+        <p class="exercise-desc">3 items with different text lengths. Force them to be exactly equal width.</p>
+    </div>
+    <div class="playground ex-14">
+        <div class="item">Short</div>
+        <div class="item">This is a much longer sentence</div>
+        <div class="item">Medium text</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 15 - The Card Layout</span></p>
+        <p class="exercise-desc">Allow 10 items to wrap to next line instead of squishing.</p>
+    </div>
+    <div class="playground ex-15">
+        <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div>
+        <div class="item">6</div><div class="item">7</div><div class="item">8</div><div class="item">9</div><div class="item">10</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 16 - The Grid Mimic</span></p>
+        <p class="exercise-desc">Wrapped container, exactly 3 items per row, 20px gap.</p>
+    </div>
+    <div class="playground ex-16">
+        <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 17 - The Nested Header</span></p>
+        <p class="exercise-desc">Header (Flex) containing Logo (Left) and Nav (Right). Nav is also Flex for links.</p>
+    </div>
+    <div class="playground ex-17">
+        <header class="header-container">
+            <div class="logo">LOGO</div>
+            <nav class="nav-links">
+                <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+            </nav>
+        </header>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 18 - Centered Profile Card</span></p>
+        <p class="exercise-desc">Vertical layout: Center an Image and Bio. Then center text inside Bio.</p>
+    </div>
+    <div class="playground ex-18">
+        <div class="profile-card">
+            <div class="profile-img" style="width: 80px; height: 80px; background: #333;"></div>
+            <div class="profile-bio">
+                <p>Junior Developer extraodinaire.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 19 - Mobile Toggle</span></p>
+        <p class="exercise-desc">Row of 4. Use a media query to switch to Column on small screens.</p>
+    </div>
+    <div class="playground ex-19">
+        <div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div>
+    </div>
+</section>
+
+<section class="challenge-block">
+    <div>
+        <p>Challenge: <span class="challenge-title">Exercise 20 - The Dashboard</span></p>
+        <p class="exercise-desc">Fixed Sidebar + Main Content (Flex Grow). Inside Main, a Gallery of 6 wrapped boxes.</p>
+    </div>
+    <div class="playground ex-20">
+        <aside class="sidebar">Sidebar</aside>
+        <main class="main-content">
+            <div class="gallery">
+                <div class="item">1</div><div class="item">2</div><div class="item">3</div>
+                <div class="item">4</div><div class="item">5</div><div class="item">6</div>
+            </div>
+        </main>
+    </div>
+</section>
+    
+</body>
+</html>
