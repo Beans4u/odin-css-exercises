@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -7,9 +11,45 @@ img {
   height: 100px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;  /* assignment value */
+  align-items: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.plant-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 52px;  /* assignment value */
+  width: 100%;
+  max-width: 1000px;
+}
+
+.plant-images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  max-width: 200px;
+  flex: 0 1 calc(25% -52px);
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
