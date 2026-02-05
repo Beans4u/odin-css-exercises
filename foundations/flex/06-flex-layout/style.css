@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
@@ -5,10 +9,21 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 
 img {
   width: 600px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1em;
 }
 
 button {
@@ -16,11 +31,61 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 1em;
 }
 
 input {
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
 }
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0em 1em 0em 1em;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #eee;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #555
+}
+
+a:hover {
+  color: #c09300
+}
+
+a:visited {
+  color: #866700
+}
+
+.left-links,
+.right-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 1.5em;
+}
+
